@@ -19,4 +19,9 @@ public class Compte {
 		compteDestination.deposer(somme);
 		return res;
 	}
+	
+	@Override
+	public String toString() {
+		return " Solde : "+this.solde ;
+	} 
 }
