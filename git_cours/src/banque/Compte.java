@@ -24,4 +24,8 @@ public class Compte {
 	public String toString() {
 		return " Solde : "+this.solde ;
 	} 
+	
+	public void Main() {
+		
+	}
 }
