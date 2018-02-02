@@ -26,6 +26,18 @@ public class Compte {
 	} 
 	
 	public void Main() {
+		Compte A = new Compte();
+		Compte B = new Compte();
+		A.solde = 1000;
+		B.solde = 2680;
 		
+		LivretA La = new LivretA();
+		LivretA Lb = new LivretA();
+		
+		A.virer(500, La);
+		Lb.virer(1080, B);
+		
+		System.out.println(A.toString()+" - "+La.toString());
+		System.out.println(B.toString()+" - "+Lb.toString());
 	}
 }
